@@ -1,3 +1,14 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomDashbboardStorage.cs](./CS/AspDashboard_CustomExtension/CustomDashbboardStorage.cs) (VB: [CustomDashbboardStorage.vb](./VB/AspDashboard_CustomExtension/CustomDashbboardStorage.vb))
+* [Default.aspx](./CS/AspDashboard_CustomExtension/Default.aspx) (VB: [Default.aspx.vb](./VB/AspDashboard_CustomExtension/Default.aspx.vb))
+* [Default.aspx.cs](./CS/AspDashboard_CustomExtension/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/AspDashboard_CustomExtension/Default.aspx.vb))
+* [Global.asax](./CS/AspDashboard_CustomExtension/Global.asax) (VB: [Global.asax](./VB/AspDashboard_CustomExtension/Global.asax))
+* [Global.asax.cs](./CS/AspDashboard_CustomExtension/Global.asax.cs) (VB: [Global.asax](./VB/AspDashboard_CustomExtension/Global.asax))
+* [DeleteExtension.js](./CS/AspDashboard_CustomExtension/Scripts/DeleteExtension.js) (VB: [DeleteExtension.js](./VB/AspDashboard_CustomExtension/Scripts/DeleteExtension.js))
+* [SaveAsExtension.js](./CS/AspDashboard_CustomExtension/Scripts/SaveAsExtension.js) (VB: [SaveAsExtension.js](./VB/AspDashboard_CustomExtension/Scripts/SaveAsExtension.js))
+<!-- default file list end -->
 # Web Dashboard - How to implement Save As and Delete by creating custom extensions
 
 
