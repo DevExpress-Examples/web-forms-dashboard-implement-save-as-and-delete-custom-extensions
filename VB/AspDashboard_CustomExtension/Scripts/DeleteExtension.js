@@ -9,11 +9,11 @@ function DeleteDashboardExtension(_wrapper) {
     this.deleteDashboard = function () {
         if (_this.isExtensionAvailable()) {
             if (confirm("Delete this Dashboard?")) {
-                var dashboardid = _this._control.dashboardContainer().id;
+                var dashboardid = _this._wrapper.GetDashboardId();
                 var param = JSON.stringify({ DashboardID: dashboardid, ExtensionName: _this.name });
                 _this._toolbox.menuVisible(false);
                 _this._wrapper.PerformDataCallback(param, function () {
-                    _this._control.close();
+                    _this._control.unloadDashboard();
                 });
             }
         }
