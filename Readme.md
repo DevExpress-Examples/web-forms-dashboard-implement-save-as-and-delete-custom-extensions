@@ -1,19 +1,25 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [CustomDashbboardStorage.cs](./CS/AspDashboard_CustomExtension/CustomDashbboardStorage.cs) (VB: [CustomDashbboardStorage.vb](./VB/AspDashboard_CustomExtension/CustomDashbboardStorage.vb))
+* [CustomDashboardStorage.cs](./CS/AspDashboard_CustomExtension/CustomDashboardStorage.cs) (VB: [CustomDashboardStorage.vb](./VB/AspDashboard_CustomExtension/CustomDashboardStorage.vb))
 * [Default.aspx](./CS/AspDashboard_CustomExtension/Default.aspx) (VB: [Default.aspx.vb](./VB/AspDashboard_CustomExtension/Default.aspx.vb))
 * [Default.aspx.cs](./CS/AspDashboard_CustomExtension/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/AspDashboard_CustomExtension/Default.aspx.vb))
-* [Global.asax](./CS/AspDashboard_CustomExtension/Global.asax) (VB: [Global.asax](./VB/AspDashboard_CustomExtension/Global.asax))
-* [Global.asax.cs](./CS/AspDashboard_CustomExtension/Global.asax.cs) (VB: [Global.asax](./VB/AspDashboard_CustomExtension/Global.asax))
 * [DeleteExtension.js](./CS/AspDashboard_CustomExtension/Scripts/DeleteExtension.js) (VB: [DeleteExtension.js](./VB/AspDashboard_CustomExtension/Scripts/DeleteExtension.js))
 * [SaveAsExtension.js](./CS/AspDashboard_CustomExtension/Scripts/SaveAsExtension.js) (VB: [SaveAsExtension.js](./VB/AspDashboard_CustomExtension/Scripts/SaveAsExtension.js))
 <!-- default file list end -->
 # Web Dashboard - How to implement Save As and Delete by creating custom extensions
 
+This example demonstrates how to add the "Save As" and "Delete" [menu items](https://docs.devexpress.com/Dashboard/117444) to the Web Dashboard's UI by implementing the corresponding [custom extensions](https://docs.devexpress.com/Dashboard/117543):
 
-This example demonstrates how to add the "Save As" and "Delete" menu items to the Web Dashboard control.<br>This functionality is implemented by creating custom extensions with the approach from <a href="https://www.devexpress.com/Support/Center/p/T466716">T466716: Web Dashboard - How to work with extensions</a>.<br>To learn more about extensions, see <a href="https://documentation.devexpress.com/#Dashboard/CustomDocument117543">Working with Extensions</a>.<br><br><strong>See also:</strong><br><a href="https://www.devexpress.com/Support/Center/p/T504201">T504201: MVC Dashboard - How to implement the Save As and Delete functionality by creating custom extensions</a><br><a href="https://www.devexpress.com/Support/Center/p/T601084">T601084: ASP.NET Core Dashboard - How to implement the Save As and Delete functionality by creating custom extensions</a>
+* The "Save As" menu item allows end-users to save the current dashboard with a new name.
+* The "Delete" menu item deletes the opened dashboard from the [dashboard storage](https://docs.devexpress.com/Dashboard/116299).
 
-<br/>
+The image below shows the result of the extensions implementation.
 
+![](readme.png)
+
+## See Also
+
+- [T504201: MVC Dashboard - How to implement the Save As and Delete functionality by creating custom extensions](https://github.com/DevExpress-Examples/mvc-dashboard-how-to-define-extensions-providing-the-save-as-and-delete-functionality-t504201)
+- [T601084: ASP.NET Core Dashboard - How to implement the Save As and Delete functionality by creating custom extensions](https://github.com/DevExpress-Examples/aspnet-core-dashboard-how-to-implement-the-save-as-and-delete-functionality-by-creating-cu-t601084)
 
