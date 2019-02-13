@@ -7,7 +7,7 @@
 * [DeleteExtension.js](./CS/AspDashboard_CustomExtension/Scripts/DeleteExtension.js) (VB: [DeleteExtension.js](./VB/AspDashboard_CustomExtension/Scripts/DeleteExtension.js))
 * [SaveAsExtension.js](./CS/AspDashboard_CustomExtension/Scripts/SaveAsExtension.js) (VB: [SaveAsExtension.js](./VB/AspDashboard_CustomExtension/Scripts/SaveAsExtension.js))
 <!-- default file list end -->
-# Web Dashboard - How to implement Save As and Delete by creating custom extensions
+# Web Dashboard - How to implement Save As and Delete functionality by creating custom extensions
 
 This example demonstrates how to add the "Save As" and "Delete" [menu items](https://docs.devexpress.com/Dashboard/117444) to the Web Dashboard's UI by implementing the corresponding [custom extensions](https://docs.devexpress.com/Dashboard/117543):
 
