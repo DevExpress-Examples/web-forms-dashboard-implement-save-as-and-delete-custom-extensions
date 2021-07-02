@@ -19,7 +19,13 @@ The image below shows the result of the extensions implementation.
 
 ![](readme.png)
 
-## See Also
+## Documentation
+
+- [Extensions Overview](https://docs.devexpress.com/Dashboard/117543/web-dashboard/ui-elements-and-customization/extensions-overview)
+- [Dashboard Menu](https://docs.devexpress.com/Dashboard/117444/web-dashboard/ui-elements-and-customization/ui-elements/dashboard-menu)
+- [Prepare Dashboard Storage](https://docs.devexpress.com/Dashboard/116299/web-dashboard/aspnet-web-forms-dashboard-control/prepare-dashboard-storage)
+
+## More Examples
 
 - [Dashboard for MVC - How to implement the Save As and Delete functionality by creating custom extensions](https://github.com/DevExpress-Examples/mvc-dashboard-how-to-define-extensions-providing-the-save-as-and-delete-functionality-t504201)
 - [Dashboard for ASP.NET Core - How to implement the Save As and Delete functionality by creating custom extensions](https://github.com/DevExpress-Examples/aspnet-core-dashboard-how-to-implement-the-save-as-and-delete-functionality-by-creating-cu-t601084)
