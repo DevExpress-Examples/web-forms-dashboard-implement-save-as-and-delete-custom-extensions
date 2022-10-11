@@ -15,7 +15,7 @@ The image below shows the result of the extensions implementation.
 
 ![](readme.png)
 
-## Files to look At
+## Files to Review
 
 * [CustomDashboardStorage.cs](./CS/AspDashboard_CustomExtension/CustomDashboardStorage.cs) (VB: [CustomDashboardStorage.vb](./VB/AspDashboard_CustomExtension/CustomDashboardStorage.vb))
 * [Default.aspx](./CS/AspDashboard_CustomExtension/Default.aspx) (VB: [Default.aspx.vb](./VB/AspDashboard_CustomExtension/Default.aspx.vb))
