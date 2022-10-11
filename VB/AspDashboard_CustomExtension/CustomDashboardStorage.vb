@@ -1,4 +1,4 @@
-﻿Imports DevExpress.DashboardWeb
+Imports DevExpress.DashboardWeb
 Imports System.IO
 
 Namespace Storages
@@ -11,10 +11,8 @@ Namespace Storages
         End Sub
 
         Public Sub DeleteDashboard(ByVal dashboardID As String)
-            Dim dashboardPath = MyBase.ResolveFileName(dashboardID)
-            If File.Exists(dashboardPath) Then
-                File.Delete(dashboardPath)
-            End If
+            Dim dashboardPath = ResolveFileName(dashboardID)
+            If File.Exists(dashboardPath) Then File.Delete(dashboardPath)
         End Sub
     End Class
 End Namespace
