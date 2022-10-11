@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.vb" Inherits="AspDashboard_CustomExtension.Global" Language="vb" %>
+<%@ Application Codebehind="Global.asax.vb" Inherits="AspDashboard_CustomExtension.Global" Language="VB" %>
